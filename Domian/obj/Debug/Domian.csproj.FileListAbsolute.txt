@@ -1,0 +1,7 @@
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Domian\bin\Debug\Domian.dll
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Domian\bin\Debug\Domian.pdb
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Domian\bin\Debug\Domian.dll.CodeAnalysisLog.xml
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Domian\bin\Debug\Domian.dll.lastcodeanalysissucceeded
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Domian\obj\Debug\Domian.csprojResolveAssemblyReference.cache
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Domian\obj\Debug\Domian.dll
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Domian\obj\Debug\Domian.pdb

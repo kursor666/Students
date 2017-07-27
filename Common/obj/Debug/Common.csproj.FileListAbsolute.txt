@@ -1,0 +1,7 @@
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\bin\Debug\Common.dll
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\bin\Debug\Common.pdb
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\bin\Debug\Common.dll.CodeAnalysisLog.xml
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\bin\Debug\Common.dll.lastcodeanalysissucceeded
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\obj\Debug\Common.dll
+c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\obj\Debug\Common.pdb
