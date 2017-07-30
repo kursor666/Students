@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Domain
 {
-    public class Faculty:BaseModel
+    public class Faculty : BaseModel
     {
         public string FacultyName { get; set; }
         public int DeanId { get; set; }

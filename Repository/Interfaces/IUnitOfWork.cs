@@ -1,7 +1,7 @@
 ﻿using Domain;
 using Repository.Interfaces;
 
-namespace Repository
+namespace Repository.Interfaces
 {
     public interface IUnitOfWork
     {

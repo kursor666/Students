@@ -56,6 +56,7 @@
     <Compile Include="DbFakeRepository.cs" />
     <Compile Include="DbRepository.cs" />
     <Compile Include="Interfaces\IDbRepository.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\ServiceModule.cs" />
     <Compile Include="UnitOfWork.cs" />

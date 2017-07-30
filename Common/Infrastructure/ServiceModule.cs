@@ -1,4 +1,6 @@
 ﻿using Ninject.Modules;
+using Repository;
+using Repository.Interfaces;
 
 namespace Common.Infrastructure
 {
@@ -6,7 +8,7 @@ namespace Common.Infrastructure
     {
         public override void Load()
         {
-            Bind(I)
+            Bind<IUnitOfWork>().To<UnitOfWork>();
         }
     }
 }
