@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AttendingSubject.cs" />
+    <Compile Include="ActvitySubject.cs" />
+    <Compile Include="AttendingGroupSubject.cs" />
+    <Compile Include="AttendingStudentSubject.cs" />
     <Compile Include="BaseModel.cs" />
     <Compile Include="Dean.cs" />
     <Compile Include="Faculty.cs" />

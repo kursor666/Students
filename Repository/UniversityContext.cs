@@ -16,7 +16,8 @@ namespace Repository
         public DbSet<Group> Groups { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Student> Students { get; set; }
-        public DbSet<AttendingSubject> AttendingSubjects { get; set; }
+        public DbSet<AttendingGroupSubject> AttendingGroupSubjects { get; set; }
+        public DbSet<AttendingStudentSubject> AttendingStudentSubjects { get; set; }
         public DbSet<Exam> Exams { get; set; }
         public DbSet<Offset> Offsets { get; set; }
         public DbSet<University> Universities { get; set; }
@@ -26,9 +27,9 @@ namespace Repository
         {
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<UniversityContext>());
 
-            modelBuilder.Entity<Faculty>().HasOptional(faculty => faculty.Dean)
-                .WithOptionalPrincipal(dean => dean.Faculty)
-                .Map(faculty => faculty.MapKey("DeanId"));
+            modelBuilder.Entity<Faculty>()
+                .HasOptional(faculty => faculty.Dean)
+                .WithRequired(dean => dean.Faculty);
         }
 
     }

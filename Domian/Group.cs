@@ -9,6 +9,6 @@ namespace Domain
         public IList<Student> Students = new List<Student>();
         public int FacultyId { get; set; }
         public Faculty Faculty { get; set; }
-        public IList<AttendingSubject> AttendingSubjects { get; set; } = new List<AttendingSubject>();
+        public IList<AttendingGroupSubject> AttendingSubjects { get; set; } = new List<AttendingGroupSubject>();
     }
 }
