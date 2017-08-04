@@ -40,9 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActvitySubject.cs" />
-    <Compile Include="AttendingGroupSubject.cs" />
-    <Compile Include="AttendingStudentSubject.cs" />
+    <Compile Include="GroupSubjectRelation.cs" />
+    <Compile Include="StudentSubjectRelation.cs" />
     <Compile Include="BaseModel.cs" />
     <Compile Include="Dean.cs" />
     <Compile Include="Faculty.cs" />
@@ -54,6 +53,7 @@
     <Compile Include="StudyInfo.cs" />
     <Compile Include="Subject.cs" />
     <Compile Include="Teacher.cs" />
+    <Compile Include="TeacherSubjectRelation.cs" />
     <Compile Include="University.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

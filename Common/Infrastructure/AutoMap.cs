@@ -7,7 +7,7 @@ using AutoMapper;
 
 namespace Common.Infrastructure
 {
-    public static class AutoMap<TSource, TDestination> where TSource : class where TDestination : class
+    public static class AutoMap<TSource, TDestination> //where TSource : class where TDestination : class
     {
         public static TDestination Map(TSource source, TDestination destination)
         {

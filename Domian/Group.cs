@@ -6,9 +6,8 @@ namespace Domain
     public class Group:BaseModel
     {
         public string GroupName { get; set; }
-        public IList<Student> Students = new List<Student>();
         public int FacultyId { get; set; }
-        public Faculty Faculty { get; set; }
-        public IList<AttendingGroupSubject> AttendingGroupSubjects { get; set; } = new List<AttendingGroupSubject>();
+        public IList<Student> Students = new List<Student>();
+        public IList<GroupSubjectRelation> GroupSubjectRelations { get; set; } = new List<GroupSubjectRelation>();
     }
 }
