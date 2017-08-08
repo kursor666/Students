@@ -1,6 +1,137 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\Владислав\Documents\Students\Common\bin\Debug\Common.dll">
+   <Modules>
+    <Module Name="common.dll">
+     <Namespaces>
+      <Namespace Name="Common.Infrastructure">
+       <Types>
+        <Type Name="ValidationException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="NonBreaking">
+           <Issue Certainty="95" Level="Error">Добавьте [Serializable] к 'ValidationException', так как этот тип реализует ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Common.Services">
+       <Types>
+        <Type Name="DeanService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'DeanService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ExamService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'ExamService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FacultyService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'FacultyService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GroupService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'GroupService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="GroupSubjectTeacherRelationService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'GroupSubjectTeacherRelationService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="OffsetService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'OffsetService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StudentService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'StudentService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="StudentSubjectTeacherRelationService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'StudentSubjectTeacherRelationService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SubjectService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'SubjectService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TeacherService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'TeacherService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TeacherSubjectRelationService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'TeacherSubjectRelationService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="UniversityService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2017-08-08 10:20:55Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Предоставьте перегружаемую реализацию Dispose(bool) для 'UniversityService' или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063">
+   <Name>Правильно реализуйте IDisposable</Name>
+   <Description>Во всех типах IDisposable шаблон Dispose должен быть реализован правильно.</Description>
+   <Resolution Name="ProvideDisposeBool">Предоставьте перегружаемую реализацию Dispose(bool) для {0} или отметьте тип как запечатанный. При вызове Dispose(false) должны очищаться только машинные ресурсы. При вызове Dispose(true) должны очищаться и управляемые, и машинные ресурсы.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms244737.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>Пометьте типы ISerializable атрибутом SerializableAttribute</Name>
+   <Description>Интерфейс System.Runtime.Serialization.ISerializable дает возможность типу настраивать свою сериализацию, в то время как атрибут Serializable дает возможность исполняющей среде опознавать этот тип как сериализуемый.</Description>
+   <Resolution Name="Default">Добавьте [Serializable] к {0}, так как этот тип реализует ISerializable.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
  <Localized>
   <String Key="Category">Категория</String>
   <String Key="Certainty">Достоверность</String>

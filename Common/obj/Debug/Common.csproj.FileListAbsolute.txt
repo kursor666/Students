@@ -21,3 +21,5 @@ C:\Users\Владислав\Documents\Students\Common\bin\Debug\AutoMapper.xml
 C:\Users\Владислав\Documents\Students\Common\bin\Debug\Ninject.xml
 C:\Users\Владислав\Documents\Students\Common\bin\Debug\EntityFramework.xml
 C:\Users\Владислав\Documents\Students\Common\obj\Debug\Common.dll
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Common.dll.CodeAnalysisLog.xml
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Common.dll.lastcodeanalysissucceeded
