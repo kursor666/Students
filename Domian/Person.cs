@@ -9,5 +9,6 @@ namespace Domain
         public string LastName { get; set; }
         public string Login { get; set; }
         public int BornYear { get; set; }
+        public int UniversityId { get; set; }
     }
 }

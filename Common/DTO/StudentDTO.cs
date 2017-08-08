@@ -1,4 +1,6 @@
-﻿namespace Common.DTO
+﻿using System.Collections.Generic;
+
+namespace Common.DTO
 {
     public class StudentDTO:PersonDTO
     {

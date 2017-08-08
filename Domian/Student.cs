@@ -8,8 +8,8 @@ namespace Domain
         public int CourseNumber { get; set; }
         public int FacultyId { get; set; }
         public int GroupId { get; set; }
-        public IList<StudentSubjectRelation> StudentSubjectRelations { get; set; } = new List<StudentSubjectRelation>();
-        public IList<Exam> Exams { get; set; } = new List<Exam>();
-        public IList<Offset> Offsets { get; set; } = new List<Offset>();
+        public IList<StudentSubjectRelation> StudentSubjectTeacherRelations { get; set; }
+        public IList<Exam> Exams { get; set; }
+        public IList<Offset> Offsets { get; set; }
     }
 }

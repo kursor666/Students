@@ -6,10 +6,10 @@ namespace Domain
     {
         public int WorkExperience { get; set; }
         public bool IsTeacher { get; set; } = true;
-        public IList<TeacherSubjectRelation> TeacherSubjectRelations { get; set; } = new List<TeacherSubjectRelation>();
-        public IList<GroupSubjectRelation> AttendingGroupSubjects { get; set; } = new List<GroupSubjectRelation>();
-        public IList<StudentSubjectRelation> AttendingStudentSubjects { get; set; } = new List<StudentSubjectRelation>();
-        public IList<Exam> Exams = new List<Exam>();
-        public IList<Offset> Offsets = new List<Offset>();
+        public IList<TeacherSubjectRelation> TeacherSubjectRelations { get; set; }
+        public IList<GroupSubjectRelation> GroupSubjectTeacherRelations { get; set; }
+        public IList<StudentSubjectRelation> StudentSubjectTeacherRelations { get; set; }
+        public IList<Exam> Exams { get; set; }
+        public IList<Offset> Offsets { get; set; }
     }
 }
