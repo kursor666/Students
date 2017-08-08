@@ -56,6 +56,18 @@
     <Compile Include="Services\FacultyService.cs" />
     <Compile Include="Services\GroupService.cs" />
     <Compile Include="Services\GroupSubjectTeacherRelationService.cs" />
+    <Compile Include="Interfaces\IDeanService.cs" />
+    <Compile Include="Interfaces\IExamService.cs" />
+    <Compile Include="Interfaces\IFacultyService.cs" />
+    <Compile Include="Interfaces\IGroupService.cs" />
+    <Compile Include="Interfaces\IGroupSubjectTeacherRelationService.cs" />
+    <Compile Include="Interfaces\IOffsetService.cs" />
+    <Compile Include="Interfaces\IStudentService.cs" />
+    <Compile Include="Interfaces\IStudentSubjectTeacherRelationService.cs" />
+    <Compile Include="Interfaces\ISubjectService.cs" />
+    <Compile Include="Interfaces\ITeacherService.cs" />
+    <Compile Include="Interfaces\ITeacherSubjectRelationService.cs" />
+    <Compile Include="Interfaces\IUniversityService.cs" />
     <Compile Include="Services\OffsetService.cs" />
     <Compile Include="Services\RelationService.cs" />
     <Compile Include="Services\StudentSubjectTeacherRelationService.cs" />
@@ -91,7 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BusinessServices\" />
-    <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

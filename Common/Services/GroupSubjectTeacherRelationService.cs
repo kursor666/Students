@@ -4,12 +4,13 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using Common.DTO;
 using Common.Infrastructure;
+using Common.Interfaces;
 using Domain;
 using Repository.Interfaces;
 
 namespace Common.Services
 {
-    public class GroupSubjectTeacherRelationService : BaseService
+    public class GroupSubjectTeacherRelationService : BaseService, IGroupSubjectTeacherRelationService
     {
 
         public GroupSubjectTeacherRelationService(IUnitOfWork database)

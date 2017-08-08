@@ -4,12 +4,13 @@ using System.Linq;
 using System.Linq.Expressions;
 using Common.DTO;
 using Common.Infrastructure;
+using Common.Interfaces;
 using Domain;
 using Repository.Interfaces;
 
 namespace Common.Services
 {
-    public class FacultyService : BaseService
+    public class FacultyService : BaseService, IFacultyService
     {
         public FacultyService(IUnitOfWork database)
         {

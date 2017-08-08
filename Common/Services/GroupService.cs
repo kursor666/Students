@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using Common.DTO;
 using Common.Infrastructure;
+using Common.Interfaces;
 using Domain;
 using Repository.Interfaces;
 
 namespace Common.Services
 {
-    public class GroupService:BaseService
+    public class GroupService : BaseService, IGroupService
     {
         public GroupService(IUnitOfWork database)
         {
