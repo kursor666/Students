@@ -46,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTO\MarkDTO.cs" />
+    <Compile Include="DTO\GroupSubjectTeacherRelationDTO.cs" />
+    <Compile Include="DTO\StudentSubjectTeacherRelationDTO.cs" />
+    <Compile Include="DTO\TeacherSubjectRelationDTO.cs" />
+    <Compile Include="DTO\UniversityDTO.cs" />
+    <Compile Include="Services\DeanService.cs" />
+    <Compile Include="Services\ExamService.cs" />
+    <Compile Include="Services\FacultyService.cs" />
+    <Compile Include="Services\GroupService.cs" />
+    <Compile Include="Services\GroupSubjectTeacherRelationService.cs" />
+    <Compile Include="Services\OffsetService.cs" />
+    <Compile Include="Services\RelationService.cs" />
+    <Compile Include="Services\StudentSubjectTeacherRelationService.cs" />
     <Compile Include="DTO\BaseModelDTO.cs" />
     <Compile Include="DTO\DeanDTO.cs" />
     <Compile Include="DTO\FacultyDTO.cs" />
@@ -56,9 +69,15 @@
     <Compile Include="DTO\TeacherDTO.cs" />
     <Compile Include="Infrastructure\AutoMap.cs" />
     <Compile Include="Infrastructure\ServiceModule.cs" />
+    <Compile Include="Infrastructure\ValidateModule.cs" />
     <Compile Include="Infrastructure\ValidationException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BaseService.cs" />
     <Compile Include="Services\StudentService.cs" />
+    <Compile Include="Services\SubjectService.cs" />
+    <Compile Include="Services\TeacherService.cs" />
+    <Compile Include="Services\TeacherSubjectRelationService.cs" />
+    <Compile Include="Services\UniversityService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domian\Domain.csproj">
@@ -71,6 +90,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BusinessServices\" />
     <Folder Include="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
