@@ -5,3 +5,19 @@ c:\users\владислав\documents\visual studio 2017\Projects\Students\Commo
 c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\obj\Debug\Common.dll
 c:\users\владислав\documents\visual studio 2017\Projects\Students\Common\obj\Debug\Common.pdb
+C:\Users\Владислав\Documents\Students\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Владислав\Documents\Students\Common\obj\Debug\Common.pdb
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Common.dll
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Common.pdb
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\AutoMapper.dll
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Domian.dll
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Ninject.dll
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Repository.dll
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\EntityFramework.dll
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Domian.pdb
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Repository.pdb
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Repository.dll.config
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\AutoMapper.xml
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\Ninject.xml
+C:\Users\Владислав\Documents\Students\Common\bin\Debug\EntityFramework.xml
+C:\Users\Владислав\Documents\Students\Common\obj\Debug\Common.dll

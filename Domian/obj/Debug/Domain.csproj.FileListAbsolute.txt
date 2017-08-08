@@ -1,0 +1,4 @@
+C:\Users\Владислав\Documents\Students\Domian\bin\Debug\Domian.dll
+C:\Users\Владислав\Documents\Students\Domian\bin\Debug\Domian.pdb
+C:\Users\Владислав\Documents\Students\Domian\obj\Debug\Domian.dll
+C:\Users\Владислав\Documents\Students\Domian\obj\Debug\Domian.pdb

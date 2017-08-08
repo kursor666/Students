@@ -285,7 +285,7 @@ namespace Common.Infrastructure
         }
 
         public University ValidateUniversity(University university) =>
-            university ?? throw new ValidationException("Универ не найден.","")
+            university ?? throw new ValidationException("Универ не найден.", "");
 
         #endregion
 

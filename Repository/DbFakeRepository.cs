@@ -41,12 +41,12 @@ namespace Repository
             return findResult.IsDeleted ? null : findResult;
         }
 
-        public TResult GetById<TResult>(int id, Expression<Func<TEntityBase, TResult>> selector)
+        public TEntityBase GetById<TResult>(int id, Expression<Func<TEntityBase, TResult>> selector)
         {
             return DbSet
                 .Where(entity => entity.Id == id)
                 .Where(entity => !entity.IsDeleted)
-                .Select(selector)
+                .Include(selector)
                 .FirstOrDefault();
         }
 

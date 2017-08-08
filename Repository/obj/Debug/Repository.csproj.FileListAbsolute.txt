@@ -1,0 +1,16 @@
+C:\Users\Владислав\Documents\Students\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\Repository.dll.config
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\Repository.dll
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\Repository.pdb
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\AutoMapper.dll
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\Domian.dll
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\EntityFramework.dll
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\Ninject.dll
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\Domian.pdb
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\AutoMapper.xml
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\EntityFramework.xml
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Владислав\Documents\Students\Repository\bin\Debug\Ninject.xml
+C:\Users\Владислав\Documents\Students\Repository\obj\Debug\Repository.dll
+C:\Users\Владислав\Documents\Students\Repository\obj\Debug\Repository.pdb
