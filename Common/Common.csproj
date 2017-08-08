@@ -38,12 +38,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTO\MarkDTO.cs" />
@@ -69,7 +63,6 @@
     <Compile Include="Interfaces\ITeacherSubjectRelationService.cs" />
     <Compile Include="Interfaces\IUniversityService.cs" />
     <Compile Include="Services\OffsetService.cs" />
-    <Compile Include="Services\RelationService.cs" />
     <Compile Include="Services\StudentSubjectTeacherRelationService.cs" />
     <Compile Include="DTO\BaseModelDTO.cs" />
     <Compile Include="DTO\DeanDTO.cs" />
@@ -101,9 +94,7 @@
       <Name>Repository</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BusinessServices\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
