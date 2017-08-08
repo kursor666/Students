@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection;
 using Domain;
 using Ninject;
 using Ninject.Parameters;
@@ -9,9 +8,9 @@ namespace Repository
 {
     public class UnitOfWork : IDisposable, IUnitOfWork
     {
-        readonly UniversityContext _context = new UniversityContext();
+        private readonly UniversityContext _context = new UniversityContext();
 
-        readonly IKernel _ninjectKernel = new StandardKernel();
+        private readonly IKernel _ninjectKernel = new StandardKernel();
 
         private readonly ConstructorArgument _constructorArgumentContext;
 
@@ -31,8 +30,9 @@ namespace Repository
         private IDbRepository<Group> _groupRepository;
         private IDbRepository<Faculty> _facultyRepository;
         private IDbRepository<Dean> _deanRepository;
-        private IDbRepository<AttendingStudentSubject> _attendingStudentSubjectRepository;
-        private IDbRepository<AttendingGroupSubject> _attendingGroupSubjectRepository;
+        private IDbRepository<StudentSubjectRelation> _studentSubjectRelationRepository;
+        private IDbRepository<GroupSubjectRelation> _groupSubjectRelationRepository;
+        private IDbRepository<TeacherSubjectRelation> _teacherSubjectRelationRepository;
 
         public IDbRepository<University> Universities => _universityRepository ??
                                                          (_universityRepository = _ninjectKernel
@@ -79,16 +79,22 @@ namespace Repository
                                                 .Get<IDbRepository<Dean>>(
                                                     _constructorArgumentContext));
 
-        public IDbRepository<AttendingStudentSubject> AttendingStudentSubjects =>
-            _attendingStudentSubjectRepository ??
-            (_attendingStudentSubjectRepository = _ninjectKernel
-                .Get<IDbRepository<AttendingStudentSubject>>(
+        public IDbRepository<StudentSubjectRelation> StudentSubjectRelations =>
+            _studentSubjectRelationRepository ??
+            (_studentSubjectRelationRepository = _ninjectKernel
+                .Get<IDbRepository<StudentSubjectRelation>>(
                     _constructorArgumentContext));
 
-        public IDbRepository<AttendingGroupSubject> AttendingGroupSubjects =>
-            _attendingGroupSubjectRepository ??
-            (_attendingGroupSubjectRepository = _ninjectKernel
-                .Get<IDbRepository<AttendingGroupSubject>>(
+        public IDbRepository<GroupSubjectRelation> GroupSubjectRelations =>
+            _groupSubjectRelationRepository ??
+            (_groupSubjectRelationRepository = _ninjectKernel
+                .Get<IDbRepository<GroupSubjectRelation>>(
+                    _constructorArgumentContext));
+
+        public IDbRepository<TeacherSubjectRelation> TeacherSubjectRelations =>
+            _teacherSubjectRelationRepository ??
+            (_teacherSubjectRelationRepository = _ninjectKernel
+                .Get<IDbRepository<TeacherSubjectRelation>>(
                     _constructorArgumentContext));
 
 
@@ -98,7 +104,7 @@ namespace Repository
         }
 
 
-        private bool _disposed = false;
+        private bool _disposed;
 
         public virtual void Dispose(bool disposing)
         {
@@ -107,7 +113,7 @@ namespace Repository
             {
                 _context.Dispose();
             }
-            this._disposed = true;
+            _disposed = true;
         }
 
         public void Dispose()

@@ -5,8 +5,9 @@ namespace Repository.Interfaces
 {
     public interface IUnitOfWork
     {
-        IDbRepository<AttendingGroupSubject> AttendingGroupSubjects { get; }
-        IDbRepository<AttendingStudentSubject> AttendingStudentSubjects { get; }
+        IDbRepository<GroupSubjectRelation> GroupSubjectRelations { get; }
+        IDbRepository<StudentSubjectRelation> StudentSubjectRelations { get; }
+        IDbRepository<TeacherSubjectRelation> TeacherSubjectRelations { get; }
         IDbRepository<Dean> Deans { get; }
         IDbRepository<Exam> Exams { get; }
         IDbRepository<Faculty> Faculties { get; }

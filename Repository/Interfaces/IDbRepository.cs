@@ -14,8 +14,9 @@ namespace Repository.Interfaces
         void Delete(TEntityBase entity);
         void Edit(TEntityBase entity);
         IEnumerable<TEntityBase> GetAll();
+
         TEntityBase GetById(int id);
-        TResult GetById<TResult>(int id, Expression<Func<TEntityBase, TResult>> selector);
+        TEntityBase GetById<TResult>(int id, Expression<Func<TEntityBase, TResult>> selector);
         IQueryable<TEntityBase> GetMany(Expression<Func<TEntityBase, bool>> predicate);
         IQueryable<TResult> GetMany<TResult>(Expression<Func<TEntityBase, TResult>> selector);
         IQueryable<TResult> GetMany<TResult>(Expression<Func<TEntityBase, TResult>> selector, Expression<Func<TEntityBase, bool>> predicate);

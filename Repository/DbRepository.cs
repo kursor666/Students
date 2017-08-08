@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Linq.Expressions;
 using AutoMapper;
@@ -41,11 +42,11 @@ namespace Repository
             return DbSet.Find(id);
         }
 
-        public TResult GetById<TResult>(int id, Expression<Func<TEntityBase, TResult>> selector)
+        public TEntityBase GetById<TResult>(int id, Expression<Func<TEntityBase, TResult>> selector)
         {
             return DbSet
                 .Where(entity => entity.Id == id)
-                .Select(selector)
+                .Include(selector)
                 .FirstOrDefault();
         }
 
@@ -55,7 +56,7 @@ namespace Repository
 
         public IEnumerable<TEntityBase> GetAll()
         {
-            return DbSet.ToArray();
+            return DbSet.ToList();
         }
 
         #endregion
